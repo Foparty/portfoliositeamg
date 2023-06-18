@@ -1,0 +1,6 @@
+.icon {
+
+	outline: 1px solid var(--clr-accent-400);
+	outline-offset: .5rem;
+	border-radius: 1rem;
+}

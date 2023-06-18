@@ -1,0 +1,44 @@
+.grid {
+	width: calc(100% - 2rem);
+	margin-inline: auto;
+	height: 100vh;
+	height: 100dvh;
+	display: grid;
+	grid-template-areas: 'nav' 'card' ' content';
+	grid-auto-rows: fit-content(100%);
+}
+
+.card {
+	grid-area: card;
+}
+
+.content {
+	grid-area: content;
+}
+
+.nav {
+	grid-area: nav;
+}
+
+@media (width > 61rem ) {
+	.grid {
+		grid-template-areas: 'card content nav';
+		grid-template-columns: 20rem auto 6rem;
+		gap: 1rem;
+	}
+
+	.card {
+		position: fixed;
+		top: 50%;
+		left: 2rem;
+		transform: translateY(-50%);
+	}
+
+	.nav {
+		position: sticky;
+		position: fixed;
+		top: 50%;
+		right: 2rem;
+		transform: translateY(-50%);
+	}
+}

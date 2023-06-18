@@ -1,0 +1,17 @@
+.block {
+	font-size: 3rem;
+	font-weight: 400;
+	line-height: 1;
+
+}
+
+.num {
+	color: var(--clr-accent-400);
+}
+
+.text {
+	font-size: 1rem;
+	opacity: .5;
+	line-height: 1.4;
+	width: 8.6rem;
+}

@@ -1,0 +1,17 @@
+.pill {
+	background: var(--clr-dark-400);
+	color: var(--fg);
+	display: inline-flex;
+	align-items: center;
+	gap: .4rem;
+	font-size: .85rem;
+	line-height: 16px;
+	border: calc(1px / 2) solid var(--fg);
+	padding: .21rem 1rem;
+	border-radius: 1rem;
+	position: relative;
+	z-index: 1;
+	text-transform: uppercase;
+	opacity: .5;
+	
+}

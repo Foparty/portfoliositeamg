@@ -1,0 +1,19 @@
+.nav {
+	width: max-content;
+	margin: 2rem auto;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	line-height: 1;
+	border: 1px solid var(--fg);
+	padding: 1rem 2.1rem;
+	border-radius: 2rem;
+}
+
+@media (width > 61rem ) {
+	.nav {
+		flex-direction: column;
+		padding: 2.1rem 1rem;
+	}
+}
