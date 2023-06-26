@@ -1,5 +1,5 @@
 import styles from './Card.module.css';
-import cover from '@/public/cardimg.webp';
+import cover from '@/public/avatar.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { data } from '@/data/data';

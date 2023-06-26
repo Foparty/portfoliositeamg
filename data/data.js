@@ -1,31 +1,31 @@
 import { github, linkedin, twitter } from '@/public/icons';
 
 export const data = {
-	name: 'Alfonso',
-	lastname: 'Martín García',
+	name: 'Adrian',
+	lastname: 'Skywalker',
 	role: 'Frontend React developer',
 	data: [
-		'alfonsomg.dev@gmail.com',
-		'+34690300025',
-		'© Alfonso. All rights reserved',
+		'adrian.dev@gmailfake.com',
+		'+3466666666',
+		'© Adrian. All rights reserved',
 	],
 	socialicons: [
 		{
 			id: 1,
 			name: 'twitter',
-			url: 'https://twitter.com/alfonsomgdev',
+			url: '#',
 			icon: twitter,
 		},
 		{
 			id: 2,
 			name: 'github',
-			url: 'https://github.com/Foparty',
+			url: '#',
 			icon: github,
 		},
 		{
 			id: 3,
 			name: 'linkedin',
-			url: 'https://www.linkedin.com/in/alfonsomartingarcia/',
+			url: '#',
 			icon: linkedin,
 		},
 	],

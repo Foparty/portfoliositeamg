@@ -5,7 +5,7 @@ import styles from './SocialIcon.module.css';
 
 const SocialIcon = ({ data }) => {
 	return (
-		<Link className={styles.icon} href={data.url} target={'_blank'}>
+		<Link className={styles.icon} href={data.url}>
 			<Image src={data.icon} alt={`${data.name} icon`} width={24} height={24} />
 		</Link>
 	);

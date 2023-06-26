@@ -5,6 +5,7 @@ import Link from 'next/link';
 import StatBlock from '@/components/StatBlock/StatBlock';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
+import { data } from '@/data/data';
 
 const Intro = () => {
 	const ref = useRef(null);
@@ -21,7 +22,7 @@ const Intro = () => {
 			</Pill>
 			<div className={styles.content}>
 				<h2 className={styles.title}>
-					Hi from <span>Alfonso</span>, Frontend React Developer
+					Hi from <span>{data.name}</span>, Frontend React Developer
 				</h2>
 				<p className={styles.sub}>
 					Affordable prices for your web projects, landing pages, personal
